@@ -1,0 +1,146 @@
+
+/* nav start */
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px;
+}
+nav ul {
+  display: flex;
+  gap: 25px;
+  list-style: none;
+}
+nav ul li a {
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  color: black;
+}
+.btn button {
+  background-color: blue;
+  color: white;
+  text-align: center;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+/* nav end */
+
+/* hero section start */
+section.hero {
+  position: relative;
+  height: 100vh;
+  background: url('./assets/banner.jpg') center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+.hero-content {
+  position: relative;
+  z-index: 2;
+  max-width: 700px;
+  padding: 0 20px;
+}
+.hero-content h1 {
+  font-size: 50px;
+  font-weight: bold;
+}
+.hero-content p {
+  font-size: 20px;
+}
+.hero-content .btn {
+  margin-top: 2rem;
+}
+/* hero section end */
+
+/* speakers section start */
+.speakers-section {
+  text-align: center;
+}
+.speakers-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+.speakers-card {
+  background: #f9f9f9;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  padding: 1.5rem;
+}
+.speakers-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+  margin-bottom: 1rem;
+}
+/* speakers section end */
+
+/* pricing section start */
+.pricing-section {
+  text-align: center;
+}
+.pricing-section h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+.title {
+  font-size: 15px;
+}
+.pricing-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.card, .card-pro {
+  padding: 2rem;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.card {
+  background: #887777;
+}
+.card-pro {
+  background: #cf2c2c;
+}
+.card button {
+  border: none;
+  background: #333;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 10px 20px;
+}
+/* pricing section end */
+
+/* footer start */
+.footer {
+  background: #111;
+  color: #fff;
+  text-align: center;
+}
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+hr {
+  border: none;
+  border-top: 1px solid #444;
+  margin: 1.5rem 0;
+}
+.footer p {
+  color: #aaa;
+  font-size: 0.9rem;
+}
+/* footer end */

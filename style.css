@@ -118,6 +118,102 @@ section.hero {
 }
 /* pricing section end */
 
+/* AI challenge */
+
+.hackathon {
+  background: #1a1a2e;
+  color: #fff;
+  padding: 20px;
+  margin: 10px;
+  font-family: Arial, sans-serif;
+}
+
+.hackathon .container {
+  max-width: 1100px;
+  margin: auto;
+  text-align: center;
+}
+
+.hackathon h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #00ffcc;
+}
+
+.hackathon .intro {
+  font-size: 1.1rem;
+  color: #ccc;
+  margin-bottom: 40px;
+}
+
+.cards {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  background: #5f5b5b;
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card h3 {
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+  color: #00ffcc;
+}
+
+.card .award {
+  color: #ffcc00;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.card .desc {
+  color: #aaa;
+  margin-bottom: 15px;
+}
+
+.card a {
+  display: inline-block;
+  background: #00ffcc;
+  color: #4d4848;
+  padding: 8px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.card a:hover {
+  background: #00e6b8;
+}
+
+.explore {
+  margin-top: 40px;
+}
+
+.explore a {
+  background: #28a745;
+  color: #fff;
+  padding: 12px 25px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+
+.explore a:hover {
+  background: #218838;
+}
+
+
 /* footer start */
 .footer {
   background: #111;
